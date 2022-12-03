@@ -2,6 +2,9 @@
     font-family: "IBM";
     src: url("./fonts/IBMPlexMono-Regular.ttf");
 }
+::-webkit-scrollbar{
+    display: none;
+}
 *{
     font-family: "IBM";
     padding: 0;
@@ -22,6 +25,7 @@ header{
     position: sticky;
     top: 0;
     backdrop-filter: blur(50px);
+    z-index: 1000;
 }
 .logoContainer{
     display: flex;
@@ -84,8 +88,8 @@ nav a{
     letter-spacing: 2px;
 }
 .readOrWrite .box{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     /* background: white; */
     border-radius: 20px;
     /* background-size: 20%; */
@@ -132,4 +136,108 @@ nav a{
 .aboutHead{
     font-size: 1.5em;
     letter-spacing: 1px;
+}
+.MiniGames{
+    height: 85vh;
+    background:#f3eced;
+    text-align: center;
+}
+.MiniGames p{
+    text-align: center;
+}
+.MiniGames .Maintitle{
+    transform: translateY(80px);
+    font-size: 1.2em;
+}
+.gameSection{
+    height: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.gameSection .game{
+    height: 150px;
+    width: 150px;
+    /* background: rgb(208, 206, 206); */
+    border-radius: 20px;
+    box-shadow: 5px 5px 0 rgba(0,0,0,.44);
+    margin: 15px;
+    background-position: center;
+    background-size: 90%;
+    transition: .2s ;
+}
+.game:hover{
+    transform: scale(1.1);
+}
+.game1{
+    background-image: url("./images/1000_F_204635658_guLWhIoZG7m77FRXAN9p6rnji8KCpLqL.jpg");
+}
+.game2{
+    background-image: url("./images/chess.jpg");
+}
+.game3{
+    background-image: url("./images/snake.jpg");
+}
+.game4{
+    background-image: url("./images/music.png");
+}
+.game p{
+    transform: translateY(170px);
+}
+.MiniGames button{
+    padding: 15px;
+    transform: translateY(-60px);
+    border-radius: 8px;
+    color: #fff;
+    background: #000;
+    box-shadow: 8px 8px 0 rgba(0,0,0,.44);
+}
+.EmailUs{
+    background: rgba(56, 96, 91,.29);
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.EmailUs div{
+    height: 100%;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.EmailUs p{
+    width: 60%;
+}
+.EmailUs button{
+    padding: 15px 30px;
+    border-radius: 8px;
+    color: #fff;
+    background: #000;
+    box-shadow: 8px 8px 0 rgba(0,0,0,.44);
+}
+footer{
+    background: #282e2b;
+    height: 60vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+footer section{
+    margin-top: 70px;
+}
+.FtrNav .Title, .FtrContact .Title{
+    padding-bottom: 10px;
+}
+.FtrContact .child{
+    font-size: .6em;
+    margin: 5px 0 10px;
+    opacity: .7;
+}
+.FtrLogo >p{
+    opacity: .5;
+}
+.FtrLogo >p:hover{
+    opacity: 1;
 }
