@@ -241,3 +241,8 @@ footer section{
 .FtrLogo >p:hover{
     opacity: 1;
 }
+.copyright{
+    position: absolute;
+    font-size: .7em;
+    transform: translateY(350px);
+}
