@@ -70,5 +70,31 @@ nav a{
 }
 .readOrWrite{
     background: #323D3a;
-    height: 40vh;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
+.readOrWrite p{
+    color: white;
+    letter-spacing: 2px;
+}
+.readOrWrite .box{
+    height: 200px;
+    width: 200px;
+    /* background: white; */
+    border-radius: 20px;
+    background-size: 20%;
+    
+}
+.read{
+    background-image: url("./images/read\ icon\ Idea\ Fiesta.png");
+    background-position: center;
+    background-size: cover;
+}
+.write{
+    background-image: url("./images/Write\ Blog.png");
+    background-position: center;
+    background-size: cover;
 }
