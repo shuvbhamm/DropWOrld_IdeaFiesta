@@ -246,3 +246,20 @@ footer section{
     font-size: .7em;
     transform: translateY(350px);
 }
+.Blogs{
+    padding: 50px;
+    text-align: justify;
+}
+.Blogs .post{
+    margin-top: 30px;
+    background: rgb(24, 28, 40);
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+.Blogs .post h3{
+    padding-bottom: 25px;
+}
+.Blogs .post P{
+    line-height: 1.6em;
+}
