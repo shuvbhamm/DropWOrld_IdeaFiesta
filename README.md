@@ -8,9 +8,11 @@ Another feature is a doing list where they can schedule both their daily activit
 Last but not least, we want to establish a blog website that is entertaining and educational so that people won't get bored writing and ca share their thoughts with absolutely 0% fear about their privacy.
 <br><br>
 
-Team Members: >Tushar Rathore
-              >Shubham Prasad
-              >Harshdeep Singh Kaint
-              >Kameshwar Prasad Suryavanshi
+Team Members:
+>Tushar Rathore
+>Shubham Prasad
+>Harshdeep Singh Kaint
+>Kameshwar Prasad Suryawanshi
+<br><br>
 
 ![dropWorld final UI](https://user-images.githubusercontent.com/108618796/206200376-c4dbfa63-6ce2-40e6-9712-76da0f8a60c9.jpg)
