@@ -263,3 +263,10 @@ footer section{
 .Blogs .post P{
     line-height: 1.6em;
 }
+.compose{
+    height: 85vh;
+    background: #aaed85;
+
+    
+
+}
