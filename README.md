@@ -12,7 +12,6 @@ Team Members:
 >Tushar Rathore <br>
 >Shubham Prasad <br>
 >Harshdeep Singh Kaint <br>
->Kameshwar Prasad Suryawanshi <br>
-<br><br>
+>Kameshwar Prasad Suryawanshi
 
 ![dropWorld final UI](https://user-images.githubusercontent.com/108618796/206200376-c4dbfa63-6ce2-40e6-9712-76da0f8a60c9.jpg)
