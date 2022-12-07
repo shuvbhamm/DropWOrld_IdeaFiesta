@@ -98,6 +98,7 @@ nav a{
     justify-content: center;
     align-items: flex-end;
     padding-bottom: 20px;
+    transition: .2s ease-in-out;
 }
 .box p{
     color: black;
@@ -127,6 +128,7 @@ nav a{
     color: #f0f0f0;
     max-width: 550px;
     border-radius: 20px;
+    padding: 20px;
     box-shadow: 15px 15px 0 rgba(0,0,0,.44);
 }
 .AboutContent p{
@@ -269,4 +271,13 @@ footer section{
 
     
 
+}
+button{
+    transition: .2s ease-in-out;
+}
+button:hover{
+    box-shadow: 12px 12px 0 rgba(0,0,0,.44);
+}
+.box:hover{
+    transform: scale(1.1);
 }
