@@ -9,10 +9,10 @@ Last but not least, we want to establish a blog website that is entertaining and
 <br><br>
 
 Team Members:
->Tushar Rathore
->Shubham Prasad
->Harshdeep Singh Kaint
->Kameshwar Prasad Suryawanshi
+>Tushar Rathore <br>
+>Shubham Prasad <br>
+>Harshdeep Singh Kaint <br>
+>Kameshwar Prasad Suryawanshi <br>
 <br><br>
 
 ![dropWorld final UI](https://user-images.githubusercontent.com/108618796/206200376-c4dbfa63-6ce2-40e6-9712-76da0f8a60c9.jpg)
