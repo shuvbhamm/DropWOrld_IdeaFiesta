@@ -1,4 +1,4 @@
-# DropWOrld_IdeaFiesta | Brocode | IdeaFiesta Hackathon 2022 
+# DropWOrld | Brocode | IdeaFiesta Hackathon 2022 
 
 Some people don't want to share their identities with other people but instead choose to convey their ideas through writing blogs about contentious topics like religion, the caste system, hacking, and civil rights in addition to personal reasons. There is a danger of being exposed while expressing anything that is simply a random opinion, and you don't want other people to know about it, so some individuals stop writing blogs and sharing their opinions just for that reason. They also want to do something else because writing alone might get monotonous at times.
 <br><br>
