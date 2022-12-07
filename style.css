@@ -66,7 +66,7 @@ nav a{
     letter-spacing: 1px;
 }
 .firstPage button{
-    width: 150px;
+    width: 100px;
     padding: 20px;
     background: #000;
     border-radius: 10px;
@@ -88,8 +88,8 @@ nav a{
     letter-spacing: 2px;
 }
 .readOrWrite .box{
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     /* background: white; */
     border-radius: 20px;
     /* background-size: 20%; */
@@ -158,8 +158,9 @@ nav a{
     align-items: center;
 }
 .gameSection .game{
-    height: 150px;
-    width: 150px;
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 100px;
     /* background: rgb(208, 206, 206); */
     border-radius: 20px;
     box-shadow: 5px 5px 0 rgba(0,0,0,.44);
@@ -184,7 +185,7 @@ nav a{
     background-image: url("./images/music.png");
 }
 .game p{
-    transform: translateY(170px);
+    transform: translateY(120px);
 }
 .MiniGames button{
     padding: 15px;
@@ -224,7 +225,8 @@ footer{
     color: white;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 80px;
+    min-width: fit-content;
 }
 footer section{
     margin-top: 70px;
@@ -265,6 +267,9 @@ footer section{
 .Blogs .post P{
     line-height: 1.6em;
 }
+nav a:hover{
+    border-bottom: 1px solid black;
+}
 .compose{
     height: 85vh;
     background: #aaed85;
@@ -280,4 +285,12 @@ button:hover{
 }
 .box:hover{
     transform: scale(1.1);
+}
+@media (max-width:700px){
+    .game{
+        transform: scale(.7);
+    }
+    .game:hover{
+        transform: scale(.9);
+    }
 }
