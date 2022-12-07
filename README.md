@@ -8,7 +8,7 @@ Another feature is a doing list where they can schedule both their daily activit
 Last but not least, we want to establish a blog website that is entertaining and educational so that people won't get bored writing and ca share their thoughts with absolutely 0% fear about their privacy.
 <br><br>
 
-Team Members:
+BroCode Team Members:
 >Tushar Rathore <br>
 >Shubham Prasad <br>
 >Harshdeep Singh Kaint <br>
