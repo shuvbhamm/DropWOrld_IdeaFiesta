@@ -1,0 +1,149 @@
+
+<%- include("partials/header"); -%>
+
+    <h1>READ</h1>
+    <p> <%= startingContent %> </p>
+
+
+  <%  posts.forEach(function(post){ %>
+
+    <h1><%=post.title%></h1>
+    <p>
+    <%=post.content.substring(0, 100) + " ..."%>
+    <a href="/posts/<%=post._id%>">Read More</a>
+    </p>
+ 
+
+    <% }) %> 
+
+
+<%- include("partials/footer"); -%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- <link rel="stylesheet" href="styles.css"> -->
+    <!-- <link rel="stylesheet" href="newStyle.css"> -->
+</head>
+<body>
+
+    
+
+
+    <section class="firstPage">
+        <h2>Give your Opinion <br>without your Identity</h2>
+        <p>A blog website that is entertaining and educational so that people 
+            won't get bored while writing and can share their thoughts with 
+            absolutely 0% fear about their privacy. </p>
+        <p>
+            Anyone can post their  ideas about anything on this open free website, and there will be minigames and activities to  keep everyone entertained while they write. </p>
+        <a href="./getStarted.html">
+            <button>Get Started</button>
+        </a>
+    </section>
+
+
+    <section class="readOrWrite">
+    
+        
+            <div class="read box">
+                <p>READ BLOG</p>
+            </div>
+        </a>
+        
+
+        <p>OR</p>
+        <a href="/compose">
+            <div class="write box">
+                <p>WRITE BLOG</p>
+            </div>
+        </a>
+    </section>
+
+    <section class="About">
+        <p class="aboutHead"><b>ABOUT<br>DROPWORLD</b></p>
+        <div class="AboutContent">
+            <p>Some people don't want to share their identities with other people but instead choose to convey their ideas through writing blogs about 
+                contentious topics  in addition to personal reasons. There is a danger of being exposed while expressing anything that is simply a 
+                random opinion, and you don't want other people to know about it, so some individuals stop writing blogs and sharing their 
+                opinions just for that reason.</p>
+                <br>
+            <p>There for There is no requirement for users to provide their personal information in order to post their ideas and opinions in the form of articles or blogs on our website. For those who don't want to be seen on public platforms but yet want to offer something interesting and educational,  this inventive random blog website will provide a solution to the privacy problem.</p>
+        </div>
+    </section>
+
+    <section class="MiniGames">
+        <p class="Maintitle">Mini Games and Activities</p>
+        <div class="gameSection">
+            <div class="game game1">
+                <div class="gameLogo"></div>
+                <p class="gameName">Tic Tac Toe</p>
+            </div>
+            <div class="game game2">
+                <div class="gameLogo"></div>
+                <p class="gameName">Chess</p>
+            </div>
+            <div class="game game3">
+                <div class="gameLogo"></div>
+                <p class="gameName">Snake Game</p>
+            </div>
+            <div class="game game4">
+                <div class="gameLogo"></div>
+                <p class="gameName">Instrument Player</p>
+            </div>
+        </div>
+        <a href="">
+            <button>More Activities</button>
+        </a>
+    </section>
+    
+
+    <section class="EmailUs">
+        <div>
+            <p>
+                Do you have any Questions?<br>
+    Any Suggestion or Feedbacks?<br>
+    Do help us Improve ;)
+            </p>
+            <button>Email Us</button>
+        </div>
+    </section>
+
+     <footer>
+      <section class="FtrLogo">
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+          <p>DROPWORLD</p>
+      </section>
+      <section class="FtrNav">
+          <p class="Title">NAVIGATION</p>
+          <p>About US</p>
+          <p>Contact US</p>
+          <p>Mini Games</p>
+      </section>
+      <section class="FtrContact">
+          <p class="Title">CONTACTS</p>
+    
+          <p class="parent">Address</p>
+          <p class="child">XYZ BHILAI, CHHATTISGARH</p>
+    
+          <p class="parent">Phones</p>
+          <p class="child">+91 9876543210</p>
+    
+          <p class="parent">Email</p>
+          <p class="child">BroCode@DropWorld.com</p>
+      </section>
+      <p class="copyright">Copyright | BroCode</p>
+    </footer> 
+</body> 
+</html>
